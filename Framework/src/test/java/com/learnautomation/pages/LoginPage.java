@@ -13,8 +13,7 @@ public class LoginPage
 	}
 
 	//new commit code
-	
-	@FindBy(name="username") WebElement uname;
+		@FindBy(name="username") WebElement uname;
 	@FindBy(name="password") WebElement pass;
 	@FindBy(xpath="//input[@value='Sign In']") WebElement signInButton;
 	
@@ -32,5 +31,4 @@ public class LoginPage
 		pass.sendKeys(password);
 		signInButton.click();
 	}
-	
 }
