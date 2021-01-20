@@ -24,9 +24,7 @@ public class LoginPage
 			Thread.sleep(2000);
 		}
 		catch(Exception e)  
-		{	
-			
-		}
+		{			}
 		uname.sendKeys(username);
 		pass.sendKeys(password);
 		signInButton.click();
