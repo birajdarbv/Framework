@@ -12,6 +12,8 @@ public class LoginPage
 		this.driver=ldriver;
 	}
 
+	//new commit code
+	
 	@FindBy(name="username") WebElement uname;
 	@FindBy(name="password") WebElement pass;
 	@FindBy(xpath="//input[@value='Sign In']") WebElement signInButton;
